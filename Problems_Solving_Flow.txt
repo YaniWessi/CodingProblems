@@ -1,0 +1,20 @@
+if ** review twice a day: 
+
+- Binar implimentation
+- LinkedList implimentation
+- contigiuos 
+- Transpose 
+- Target Insdex / Binary search  
+- Anagram 
+- BestSeat **
+- Class Photo 
+- Palindrome 
+- inorder traversal 
+- postOrder traversal 
+- preOrder traversal 
+- Turn list to dic 
+- Collections module 
+- List comprehensions 
+
+
+- Bubble Sort 
