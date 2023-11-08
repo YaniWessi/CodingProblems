@@ -1,5 +1,7 @@
 if ** review twice a day: 
 
+- Anagram 
+- Palindrome
 - Binar implimentation
 - LinkedList implimentation
 - contigiuos 
@@ -18,3 +20,5 @@ if ** review twice a day:
 
 
 - Bubble Sort 
+
+git config --global user.email "yannickwessidjam@gmail.com"
