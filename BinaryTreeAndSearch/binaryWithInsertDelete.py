@@ -87,3 +87,63 @@ def contains(self, value):
       return True 
 
   return False              
+
+
+class Node:
+  def __init__(self, value):
+    self.value = value
+    self.left = None 
+    self.right = None 
+
+  def insert(self, value):
+    if value == self.value:
+      if self.left is None:
+        self.left = Node(value)
+      else:
+        self.left.insert(value)
+    else:
+      if self.right is None:
+        self.right = Node(value)
+      else:
+        self.right.insert(value)
+
+  def search(self, value):
+    if value == self.value:
+      return self
+    elif value < self.value:
+      if self.left is None:
+        return None
+      else:
+        self.left.search(value)
+    else:
+      if self.right is None:
+        return None
+      else:
+        self.right.search(value)
+
+  def delete(self, value):
+    if value < self.value:
+      if self.left:
+        self.left = self.left.delete(value)
+    elif value > self.value:
+      if self.right:
+        self.right = self.right.delete(value)
+    else:
+      if self.left is None:
+        return self.right
+      elif self.right is None:
+        return self.left
+      elif:
+        successor = self.right.find_minimum()
+        self.value = successor.value
+        self.right = self.right.delete(successor.value)
+    return self
+
+
+def find_minimum(self):
+  curr = self
+  while curr.left
+    curr = curr.left 
+  return curr.left 
+
+    

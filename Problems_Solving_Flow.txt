@@ -1,5 +1,7 @@
 if ** review twice a day: 
 
+- Anagram 
+- Palindrome
 - Binar implimentation
 - LinkedList implimentation
 - contigiuos 
