@@ -13,7 +13,7 @@ for word in words:
 
   sorted_W = ''.join(sorted(word)) # sorted turns strings into list and join turns that list into a string. 
   # word at index one is "car"
-  # when car in input into sorted(word) it becomes ['a', 'c', 'r']
+  # when car is inputed into sorted(word) it becomes ['a', 'c', 'r']
   # Then when it ' '.join(sorted(word)) it becomes "acr"
 
   if sorted_W in dict: #dic is empty

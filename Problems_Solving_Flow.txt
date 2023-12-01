@@ -1,5 +1,16 @@
 if ** review twice a day: 
 
+
+- BestSeat ** < start at best seat  from now on > 
+- Class Photo 
+- inorder traversal 
+- postOrder traversal 
+- preOrder traversal 
+- Turn list to dic 
+- Collections module 
+- List comprehensions
+
+Routin
 - Anagram 
 - Palindrome
 - Binar implimentation
@@ -7,16 +18,7 @@ if ** review twice a day:
 - contigiuos 
 - Transpose 
 - Target Insdex / Binary search  
-- Anagram 
-- BestSeat **
-- Class Photo 
-- Palindrome 
-- inorder traversal 
-- postOrder traversal 
-- preOrder traversal 
-- Turn list to dic 
-- Collections module 
-- List comprehensions 
+ 
 
 
 - Bubble Sort 

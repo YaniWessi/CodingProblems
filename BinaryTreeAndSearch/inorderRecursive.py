@@ -49,14 +49,14 @@ def inorder_search(node, target):
 
 
   left_result = inorder_search(node.left, target)
-  if left_result is not None:
+  if left_result:
     return left_result   
 
   if node.value == target:
     return node 
 
   right_result = inorder_search(node.right, target)
-  if right_result is not None:
+  if right_result:
     return right_result  #Target found in the left subtree
 
  
@@ -87,4 +87,25 @@ def inOrderTraverse(tree, array):
 
 
   
-    
+  class Node:
+    def __init__(self, value):
+      self.value = value
+      self.left = None
+      self.right = None
+
+    def inorder_traversal(node, target):
+      if node is None:
+        return None
+
+      left_result = inorder_traversal(node.left, target)
+      if left_result is None:
+        reutrn left_result
+
+      if node.value == target:
+        return None
+
+     right_resut = inorder_traversal(node.right, target)
+     if right_result is None:
+      return right_result
+
+  return None 
