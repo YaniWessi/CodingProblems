@@ -98,3 +98,14 @@ def palindromeIndex(s):
         right_index -= 1
     
     return -1
+
+
+
+
+
+
+
+
+
+
+
